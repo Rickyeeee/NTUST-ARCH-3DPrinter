@@ -1,28 +1,53 @@
+.title{
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .frame{
     display:flex;
+    
 }
 
 .left{
     flex:none;
-    width:33%;
-    margin-left: 3%;
-    margin-right:3%;
+    width:25%;
     float: left;
-
+    margin-left: 5%;
     
 }
 
 .middle{
     flex: none;
-    width:33%;
+    width:25%;
     align-content: center;
-    
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .right{
     flex:none;
-    width:33%;
-    margin-right: 3%;
-    margin-left: 3%;
+    width:25%;
     float: right;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media (max-width:1250px){
+    .frame{
+        flex-wrap:wrap
+    }
+    .left{
+       width:90%
+    }
+    .middle{
+        width:90%
+    }
+    .right{
+        width:90%
+    }
+    .title{
+        text-align: center;
+    }
 }
