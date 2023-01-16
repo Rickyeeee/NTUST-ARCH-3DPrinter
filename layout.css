@@ -1,13 +1,13 @@
 .title{
     margin-left: 2%;
-    margin-top: 2%;
+    margin-top: 1%;
     font-size: 30px;
     font-weight: bold;
 }
 
 .frame{
     display:flex;
-    
+    margin-top: 1%;
 }
 
 .left{
@@ -15,6 +15,7 @@
     width:25%;
     float: left;
     margin-left: 5%;
+    margin-right: 5%;
     
 }
 
@@ -31,7 +32,6 @@
     width:25%;
     float: right;
     margin-left: 5%;
-    margin-right: 5%;
 }
 
 @media (max-width:1250px){
@@ -50,4 +50,5 @@
     .title{
         text-align: center;
     }
+   
 }
