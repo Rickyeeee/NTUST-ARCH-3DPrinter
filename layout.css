@@ -1,0 +1,28 @@
+.frame{
+    display:flex;
+}
+
+.left{
+    flex:none;
+    width:33%;
+    margin-left: 3%;
+    margin-right:3%;
+    float: left;
+
+    
+}
+
+.middle{
+    flex: none;
+    width:33%;
+    align-content: center;
+    
+}
+
+.right{
+    flex:none;
+    width:33%;
+    margin-right: 3%;
+    margin-left: 3%;
+    float: right;
+}
